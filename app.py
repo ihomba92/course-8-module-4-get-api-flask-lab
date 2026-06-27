@@ -31,5 +31,5 @@ def get_product_by_id(id):
     return jsonify(product) if product else(jsonify({"message": "Product not found"}), 404)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5555)
+    app.run(debug=True)
  
